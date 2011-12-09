@@ -1,19 +1,6 @@
 # AHP + Monte Carlo
 
-This Excel add-in (or standalone workbook) builds a simplified AHP model with Monte Carlo simulation. Use it and be amazed. :)
-
-The add-in will work with Excel 2007 and 2010.
-
-Enjoy!
-
-
-# Summary
-
-Thomas Saaty's Analytic Hierarchy Process (AHP) is a well known framework for operations and decision analysis. The AHP allows a decision maker to easily decompose a difficult decision into its component parts and assign weights and rankings to each aspect of the problem. By (1) identifying a decision's objectives and alternatives, (2) weighing each of the objectives against each other in a pairwise table, and (3) ranking each of the alternatives in relation to each objective, a decision maker can create a robust and powerful model for decision analysis. An AHP model can be enhanced by using random "fuzzy" values rather than total averages, which gives the final model additional explanatory power, as these fuzzy weights and rankings can be used in a series of Monte Carlo trials.
-
-While an AHP + Monte Carlo model is a fantastic tool for decision analysis, building the model with Excel is relatively time consuming. Pairwise tables that calculate the sumproduct, normalized values, averages, standard deviations, and random inverse normal distributions require dozens of complicated formulas and extensive formatting. More time can often be spent actually building an AHP + Monte Carlo model than analyzing the model's results. 
-
-"AHP + Monte Carlo" is a VBA add-in that automates the majority of the mundane mechanics behind building an AHP + Monte Carlo model in Excel. Users can now build complicated decision support models by simply filling out a series of forms. Instead of spending time repeatedly setting up difficult formulas, users can focus on the actual dynamics of comparing their objectives and alternatives and making better decisions in general.
+I'll put a description here soon.
 
 
 # License
