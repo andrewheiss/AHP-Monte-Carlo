@@ -1,10 +1,38 @@
 # AHP + Monte Carlo
 
-This Excel add-in (or standalone workbook) builds a simplified AHP model with Monte Carlo simulation. Use it and be amazed. :)
+This Excel workbook (or add-in) builds a simplified AHP model with Monte Carlo simulation. Use it and be amazed. :)
 
 The add-in will work with Excel 2007 and 2010.
 
 Enjoy!
+
+
+# Installation
+
+The package includes two Excel files:
+
+1. AHP Monte Carlo.**xlsm**: A standalone workbook with the custom ribbon tab and buttons. You can use this to create a new model without having to install the macro permanently.
+2. AHP Monte Carlo.**xlam**: An add-in for Excel that adds the custom ribbon tab to Excel permanently--it will be available whenever you open Excel. 
+
+## Install the add-in (not recommended)
+
+If you want to have the AHP Monte Carlo program available whenever you open Excel, do the following:
+
+1. Place the .xlam file somewhere on your computer.
+2. In Excel, click on the Office button, choose *Excel Options* (or *Options* in Excel 2010)
+3. Select *Add-ins* from the left sidebar and click on "Go" next to the the *Manage: Excel Add-ins* dialog
+4. Click on "Browse..." and navigate to the .xlam file
+5. You're done!
+
+
+## Uninstall the add-in
+
+If Excel starts crashing or running slow after you've installed the add-in (or if you just don't want it in Excel all the time), do the following:
+
+1. In Excel, click on the Office button, choose *Excel Options* (or *Options* in Excel 2010)
+2. Select *Add-ins* from the left sidebar and click on "Go" next to the the *Manage: Excel Add-ins* dialog
+3. Uncheck the AHP Monte Carlo add-in in the list
+4. You're done!
 
 
 # Summary
