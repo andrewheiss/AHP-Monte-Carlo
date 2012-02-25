@@ -44,6 +44,20 @@ While an AHP + Monte Carlo model is a fantastic tool for decision analysis, buil
 "AHP + Monte Carlo" is a VBA add-in that automates the majority of the mundane mechanics behind building an AHP + Monte Carlo model in Excel. Users can now build complicated decision support models by simply filling out a series of forms. Instead of spending time repeatedly setting up difficult formulas, users can focus on the actual dynamics of comparing their objectives and alternatives and making better decisions in general.
 
 
+# Rare object library error
+
+Occasionally, if Excel crashes while using this macro, or if an update to Office goes awry, exposed ActiveX `.exd` files will be left behind and will cause the following error message:
+
+	Object library invalid or contains references to object definitions that could not be found.
+
+According to a [Microsoft KB entry](http://support.microsoft.com/kb/957924/en-us), the solution for this is to search your hard drive for `*.exd` and delete all occurrences. All the necessary `.exd` files will be recreated automatically the next time you open Excel and run the marco.
+
+Alternatively, open Command Prompt and type these two commands:
+
+	CD \Documents and Settings
+	DEL /S /A:H /A:-H *.EXD
+
+
 # License
 
 AHP + Monte Carlo is free and open source software and is provided under the MIT license
